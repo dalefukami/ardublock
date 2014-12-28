@@ -8895,7 +8895,7 @@
 				<BlockGenusMember>PORTA</BlockGenusMember>
 				<BlockGenusMember>PINA</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="255 163 82" name="bd.logic" type="factory">
+			<!-- <BlockDrawer button-color="255 163 82" name="bd.logic" type="factory">
 				<BlockGenusMember>greater</BlockGenusMember>
 				<BlockGenusMember>less</BlockGenusMember>
 				<BlockGenusMember>equal</BlockGenusMember>
@@ -8914,8 +8914,8 @@
 				<BlockGenusMember>string_equal</BlockGenusMember>
 				<BlockGenusMember>string_empty</BlockGenusMember>
 				<BlockGenusMember>string_toInt</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="114 147 71" name="bd.operators" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="114 147 71" name="bd.operators" type="factory">
 				<BlockGenusMember>addition</BlockGenusMember>
 				<BlockGenusMember>subtraction</BlockGenusMember>
 				<BlockGenusMember>multiplication</BlockGenusMember>
@@ -8929,8 +8929,8 @@
 				<BlockGenusMember>tan</BlockGenusMember>
 				<BlockGenusMember>random_range</BlockGenusMember>
 				<BlockGenusMember>map</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="232 156 149" name="bd.number" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="232 156 149" name="bd.number" type="factory">
 				<BlockGenusMember>number</BlockGenusMember>
 				<BlockGenusMember>setter_variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>variable_number_unsigned_long</BlockGenusMember>
@@ -8956,8 +8956,8 @@
 				<BlockGenusMember>setter_variable_vector</BlockGenusMember>
 				<BlockGenusMember>setter_variable_char</BlockGenusMember>
 				<BlockGenusMember>variable_poly</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="205 133 63" name="bd.utilities" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="205 133 63" name="bd.utilities" type="factory">
 				<BlockGenusMember>servo_default</BlockGenusMember>
 				<BlockGenusMember>ultrasonic</BlockGenusMember>
 				<BlockGenusMember>LCD_I2C_Sainsmart_20by4</BlockGenusMember>
@@ -8965,8 +8965,8 @@
 				<BlockGenusMember>LCD_PLL_Sainsmart_16by2</BlockGenusMember>
 				<BlockGenusMember>number-single-I2C-address</BlockGenusMember>
 				<BlockGenusMember>number-single-fixed-parallel</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="255 255 255" name="bd.communication" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="255 255 255" name="bd.communication" type="factory">
 				<BlockGenusMember>serial_read</BlockGenusMember>
 				<BlockGenusMember>serial_print</BlockGenusMember>
 				<BlockGenusMember>glue_sn</BlockGenusMember>
@@ -8983,8 +8983,8 @@
 				<BlockGenusMember>DuinoEDU_Guino_pause</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_Guino_Title</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_Guino_column</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="26 97 218" name="bd.scoop">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="26 97 218" name="bd.scoop">
 			    <BlockGenusMember>scoop_task</BlockGenusMember>
 				<BlockGenusMember>scoop_loop</BlockGenusMember>
 				<BlockGenusMember>scoop_sleep</BlockGenusMember>
@@ -8994,8 +8994,8 @@
 				<BlockGenusMember>scoop_event_falling</BlockGenusMember>
 				<BlockGenusMember>scoop_event_rising</BlockGenusMember>
 				<BlockGenusMember>scoop_event_change</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="0 50 45" name="bd.storage" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="0 50 45" name="bd.storage" type="factory">
 				<BlockGenusMember>eeprom_read_int</BlockGenusMember>
 				<BlockGenusMember>eeprom_write_int</BlockGenusMember>
 				<BlockGenusMember>eeprom_read_long</BlockGenusMember>
@@ -9003,22 +9003,22 @@
 				<BlockGenusMember>eeprom_read</BlockGenusMember>
 				<BlockGenusMember>eeprom_write</BlockGenusMember>
 				<BlockGenusMember>sd_write2</BlockGenusMember>
-				<!-- <BlockGenusMember>sd_write</BlockGenusMember> -->
-				<!-- <BlockGenusMember>sd_write_number</BlockGenusMember> -->
-				<!-- <BlockGenusMember>sd_write_number_int</BlockGenusMember> -->
-			</BlockDrawer>
-			<BlockDrawer button-color="169 148 212" name="bd.network" type="factory">
+				<BlockGenusMember>sd_write</BlockGenusMember>
+				<BlockGenusMember>sd_write_number</BlockGenusMember>
+				<BlockGenusMember>sd_write_number_int</BlockGenusMember>
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="169 148 212" name="bd.network" type="factory">
 				<BlockGenusMember>bleshield</BlockGenusMember>
 				<BlockGenusMember>bleshield_available</BlockGenusMember>
 				<BlockGenusMember>bleshield_read_poly</BlockGenusMember>
 				<BlockGenusMember>bleshield_compare</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="120 120 120" name="bd.especial" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="120 120 120" name="bd.especial" type="factory">
 				<BlockGenusMember>code_head</BlockGenusMember>
 				<BlockGenusMember>code_setup</BlockGenusMember>
 				<BlockGenusMember>code_loop</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="13 152 164" name="bd.tinkerkit" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="13 152 164" name="bd.tinkerkit" type="factory">
 				<BlockGenusMember>Tinker_LED</BlockGenusMember>
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
@@ -9033,8 +9033,8 @@
 				<BlockGenusMember>Tinker_Relay</BlockGenusMember>
 				<BlockGenusMember>Tinker_Mosfet</BlockGenusMember>
 				<BlockGenusMember>Tinker_Mosfet_pwm</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="255 102 0" name="bd.dfrobot" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="255 102 0" name="bd.dfrobot" type="factory">
 			    <BlockGenusMember>df_led</BlockGenusMember>
 				<BlockGenusMember>df_led_pwm</BlockGenusMember>
 				<BlockGenusMember>df_digital_push_button</BlockGenusMember>
@@ -9086,8 +9086,8 @@
 				<BlockGenusMember>df_romeo_motors</BlockGenusMember>
 				<BlockGenusMember>df_romeo_motor</BlockGenusMember>
 				<BlockGenusMember>df_romeo_motor_stop</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="0 255 0" name="bd.seeedstudio">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="0 255 0" name="bd.seeedstudio">
 				<BlockGenusMember>seeed_o2_sensor</BlockGenusMember>
 				<BlockGenusMember>seeed_uv_sensor</BlockGenusMember>
 				<BlockGenusMember>seeed_single_gyro</BlockGenusMember>
@@ -9132,8 +9132,8 @@
 				<BlockGenusMember>seeed_relay</BlockGenusMember>
 				<BlockGenusMember>seeed_joystick</BlockGenusMember>
 				<BlockGenusMember>seeed_joystick_button</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="20 206 20" name="bd.DuinoEDU">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="20 206 20" name="bd.DuinoEDU">
 				<BlockGenusMember>DuinoEDU_Led</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_infrared</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_temp</BlockGenusMember>
@@ -9182,8 +9182,8 @@
 				<BlockGenusMember>DuinoEDU_Servo_Plus</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_Nunchuck_BoutonC</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_Barometer_Pression</BlockGenusMember>		
-			</BlockDrawer>
-			<BlockDrawer button-color="216 5 10" name="bd.adafruit" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="216 5 10" name="bd.adafruit" type="factory">
 				<BlockGenusMember>ada_dc_motor_fwd</BlockGenusMember>
 				<BlockGenusMember>ada_dc_motor_bwd</BlockGenusMember>
 				<BlockGenusMember>ada_dc_motor_release</BlockGenusMember>
@@ -9191,8 +9191,8 @@
 				<BlockGenusMember>ada_neopixel_pixel_colorRGB</BlockGenusMember>
 				<BlockGenusMember>ada_neopixel_show</BlockGenusMember>	
 				<BlockGenusMember>ada_neopixel_Brightness</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="0 177 236" name="bd.makeblock" type="factory">
+			</BlockDrawer> -->
+			<!-- <BlockDrawer button-color="0 177 236" name="bd.makeblock" type="factory">
 				<BlockGenusMember>me_ultrasonic_sensor</BlockGenusMember>
 				<BlockGenusMember>me_linefinder</BlockGenusMember>
 				<BlockGenusMember>me_limitswitch</BlockGenusMember>
@@ -9208,7 +9208,7 @@
 				<BlockGenusMember>me_port_1</BlockGenusMember>
 				<BlockGenusMember>me_motor_1</BlockGenusMember>
 				<BlockGenusMember>me_shutter_1</BlockGenusMember>
-			</BlockDrawer>
+			</BlockDrawer> -->
 			<!-- 
 			<BlockDrawer button-color="225 116 116" name="bd.workshop" type="factory">
 			    <BlockGenusMember>ws_setting</BlockGenusMember>
@@ -9229,20 +9229,20 @@
 				<BlockGenusMember>ws_binoculars</BlockGenusMember>
 			</BlockDrawer>
 			 -->
-			<BlockDrawer button-color="64 109 0" name="bd.insectbot">
+			<!-- <BlockDrawer button-color="64 109 0" name="bd.insectbot">
 			    <BlockGenusMember>insectbot_get_distance</BlockGenusMember>
 			    <BlockGenusMember>insectbot_is_indanger</BlockGenusMember>
 			    <BlockGenusMember>insectbot_go_forward</BlockGenusMember>
 			    <BlockGenusMember>insectbot_go_backright</BlockGenusMember>
 			    <BlockGenusMember>insectbot_turn_left</BlockGenusMember>
 			    <BlockGenusMember>insectbot_blink_led</BlockGenusMember>
-			</BlockDrawer>
+			</BlockDrawer> -->
 			<BlockDrawer button-color="64 109 0" name="bd.roboblocks">
 			    <BlockGenusMember>roboblocks_blink_led</BlockGenusMember>
 			    <BlockGenusMember>roboblocks_if_sensor1_on</BlockGenusMember>
 			</BlockDrawer>
 			<!-- iDrawing -->
-			<BlockDrawer button-color="255 102 0" name="bd.iDrawing">
+			<!-- <BlockDrawer button-color="255 102 0" name="bd.iDrawing">
 			    <BlockGenusMember>iDrawing_set_para</BlockGenusMember>
 			    <BlockGenusMember>iDrawing_run</BlockGenusMember>
 			    <BlockGenusMember>iDrawing_rule_start</BlockGenusMember>
@@ -9269,9 +9269,9 @@
 			    <BlockGenusMember>trigger_equal</BlockGenusMember>
 			    <BlockGenusMember>trigger_greater</BlockGenusMember>
 			    <BlockGenusMember>trigger_less</BlockGenusMember>		    
-			</BlockDrawer>
+			</BlockDrawer> -->
 			<!-- littlebits -->
-			<BlockDrawer button-color="93 13 125" name="bd.littlebits">
+			<!-- <BlockDrawer button-color="93 13 125" name="bd.littlebits">
 			    <BlockGenusMember>little_bits_bendsensor</BlockGenusMember>
 			    <BlockGenusMember>little_bits_button</BlockGenusMember>
 			    <BlockGenusMember>little_bits_dimmer</BlockGenusMember>
@@ -9304,10 +9304,10 @@
 			    <BlockGenusMember>little_bits_uvled</BlockGenusMember>
 			    <BlockGenusMember>little_bits_vibration_motor</BlockGenusMember>
 			    <BlockGenusMember>little_bits_synthspeaker</BlockGenusMember>
-			</BlockDrawer>
+			</BlockDrawer> -->
 			
 			<!-- keenlon -->			
-			<BlockDrawer button-color="20 150 30" name="bd.ke-keenlon">
+			<!-- <BlockDrawer button-color="20 150 30" name="bd.ke-keenlon">
 				<BlockGenusMember>ke-motor-run</BlockGenusMember>
 				<BlockGenusMember>ke-motor-setmoto</BlockGenusMember>	
 				<BlockGenusMember>ke-motor-stop</BlockGenusMember>				
@@ -9334,12 +9334,12 @@
 				<BlockGenusMember>ke-tempe</BlockGenusMember>	
 				<BlockGenusMember>ke-psd</BlockGenusMember>								
 				<BlockGenusMember>ke-servo</BlockGenusMember>																		
-			</BlockDrawer> 	
-
-			<BlockDrawer button-color="152 29 155" name="bd.jerusalab" type="factory">
+			</BlockDrawer>  -->	
+			
+			<!-- <BlockDrawer button-color="152 29 155" name="bd.jerusalab" type="factory">
 				<BlockGenusMember>midi_command</BlockGenusMember>
-				<!-- <BlockGenusMember>midi_note</BlockGenusMember> -->
-			</BlockDrawer>
+				<BlockGenusMember>midi_note</BlockGenusMember>
+			</BlockDrawer> -->
 			<!--
 			<BlockDrawer button-color="135 206 235" name="bd.linksprite_LinkerKit">
 				<BlockGenusMember>ls_10mmLEDModule</BlockGenusMember>
