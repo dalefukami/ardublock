@@ -6925,6 +6925,21 @@
 			</Images>
 		</BlockGenus>
 		
+		<BlockGenus name="roboblocks_if_sensor1_on" kind="command" initlabel="bg.if" color="255 221 0">
+			<description>
+				<text>
+					If sensor 1 is on
+				</text>
+				<arg-description n="1" name="then">
+					The set of instructions
+					that is done when the sensor is on.
+				</arg-description>
+			</description>
+			<BlockConnectors>
+				<BlockConnector label="bc.then" connector-kind="socket" connector-type="cmd" />
+			</BlockConnectors>
+		</BlockGenus>
+		
 		<!-- InsectBot blocks -->
 		
 		<BlockGenus name="insectbot_get_distance" kind="data" color="64 109 0" initlabel="bg.insectbot_get_distance">
@@ -9224,6 +9239,7 @@
 			</BlockDrawer>
 			<BlockDrawer button-color="64 109 0" name="bd.roboblocks">
 			    <BlockGenusMember>roboblocks_blink_led</BlockGenusMember>
+			    <BlockGenusMember>roboblocks_if_sensor1_on</BlockGenusMember>
 			</BlockDrawer>
 			<!-- iDrawing -->
 			<BlockDrawer button-color="255 102 0" name="bd.iDrawing">
