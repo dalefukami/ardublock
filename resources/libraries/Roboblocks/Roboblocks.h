@@ -15,7 +15,7 @@ private:
   int leftMotorPin2 = 12;
   int rightMotorPin1 = 9;
   int rightMotorPin2 = 10;
-  int sensorPins[0] = {3,4,5,6,7};
+  int sensorPins[5] = {3,4,5,6,7};
 
   void leftMotorForward(void);
   void leftMotorBackward(void);
