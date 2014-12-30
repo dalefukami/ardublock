@@ -6999,6 +6999,18 @@
 				<BlockConnector label="bc.then" connector-kind="socket" connector-type="cmd" />
 			</BlockConnectors>
 		</BlockGenus>
+
+		<BlockGenus name="roboblocks_go_forward" kind="command" color="64 109 0" initlabel="bg.roboblocks_go_forward">
+		</BlockGenus>
+
+		<BlockGenus name="roboblocks_go_backward" kind="command" color="64 109 0" initlabel="bg.roboblocks_go_backward">
+		</BlockGenus>
+
+		<BlockGenus name="roboblocks_turn_right" kind="command" color="64 109 0" initlabel="bg.roboblocks_turn_right">
+		</BlockGenus>
+
+		<BlockGenus name="roboblocks_turn_left" kind="command" color="64 109 0" initlabel="bg.roboblocks_turn_left">
+		</BlockGenus>
 		
 		<!-- InsectBot blocks -->
 		
@@ -9304,6 +9316,10 @@
 			    <BlockGenusMember>roboblocks_if_sensor3_on</BlockGenusMember>
 			    <BlockGenusMember>roboblocks_if_sensor4_on</BlockGenusMember>
 			    <BlockGenusMember>roboblocks_if_sensor5_on</BlockGenusMember>
+			    <BlockGenusMember>roboblocks_go_forward</BlockGenusMember>
+			    <BlockGenusMember>roboblocks_go_backward</BlockGenusMember>
+			    <BlockGenusMember>roboblocks_turn_right</BlockGenusMember>
+			    <BlockGenusMember>roboblocks_turn_left</BlockGenusMember>
 			</BlockDrawer>
 			<!-- iDrawing -->
 			<!-- <BlockDrawer button-color="255 102 0" name="bd.iDrawing">
