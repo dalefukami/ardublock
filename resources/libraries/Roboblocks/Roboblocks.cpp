@@ -4,6 +4,21 @@ Roboblocks::Roboblocks(void)
 {
 }
 
+void Roboblocks::setup(void) {
+    pinMode(rightMotorPin1, OUTPUT);
+    digitalWrite(rightMotorPin1, LOW);
+    pinMode(rightMotorPin2, OUTPUT);
+    digitalWrite(rightMotorPin2, LOW);
+    pinMode(leftMotorPin1, OUTPUT);
+    digitalWrite(leftMotorPin1, LOW);
+    pinMode(leftMotorPin2, OUTPUT);
+    digitalWrite(leftMotorPin2, LOW);
+
+    for(int i = 0; i < sensorCount; i++) {
+        pinMode(sensorPins[i], INPUT);
+    }
+}
+
 void Roboblocks::blinkLed(void)
 {
   for (int i=0; i<5; ++i)

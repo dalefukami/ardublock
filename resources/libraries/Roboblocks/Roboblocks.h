@@ -8,6 +8,8 @@
 #include "WProgram.h"
 #endif
 
+const int ROBOBLOCKS_SENSOR_COUNT = 5;
+
 class Roboblocks
 {
 private:
@@ -15,7 +17,8 @@ private:
   int leftMotorPin2 = 12;
   int rightMotorPin1 = 9;
   int rightMotorPin2 = 10;
-  int sensorPins[5] = {3,4,5,6,7};
+  int sensorCount = ROBOBLOCKS_SENSOR_COUNT;
+  int sensorPins[ROBOBLOCKS_SENSOR_COUNT] = {3,4,5,6,7};
 
   void leftMotorForward(void);
   void leftMotorBackward(void);
@@ -26,6 +29,8 @@ private:
 
 public:
   Roboblocks(void);
+
+  void setup(void);
 
   void blinkLed(void);
 

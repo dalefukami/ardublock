@@ -10,5 +10,7 @@ public class RoboblocksUtil
 		translator.addHeaderFile("Roboblocks.h");
 		
 		translator.addDefinitionCommand("Roboblocks robo;");
+		
+		translator.addSetupCommand("robo.setup();");
 	}
 }
