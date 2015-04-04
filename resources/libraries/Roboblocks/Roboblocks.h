@@ -13,9 +13,11 @@ const int ROBOBLOCKS_SENSOR_COUNT = 5;
 class Roboblocks
 {
 private:
+  int speedPin = 9; // PWM pin for speed control
+  int speed = 128;
   int leftMotorPin1 = 11;
   int leftMotorPin2 = 12;
-  int rightMotorPin1 = 9;
+  int rightMotorPin1 = 8;
   int rightMotorPin2 = 10;
   int sensorCount = ROBOBLOCKS_SENSOR_COUNT;
   int sensorPins[ROBOBLOCKS_SENSOR_COUNT] = {3,4,5,6,7};

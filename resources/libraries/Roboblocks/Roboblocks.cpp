@@ -5,6 +5,8 @@ Roboblocks::Roboblocks(void)
 }
 
 void Roboblocks::setup(void) {
+    pinMode(speedPin, OUTPUT);
+    analogWrite(speedPin, speed);
     pinMode(rightMotorPin1, OUTPUT);
     digitalWrite(rightMotorPin1, LOW);
     pinMode(rightMotorPin2, OUTPUT);
