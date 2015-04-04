@@ -16,7 +16,7 @@ const int leftMotorPin2 = 12;
 const int rightMotorPin1 = 8;
 const int rightMotorPin2 = 10;
 const int sensorCount = ROBOBLOCKS_SENSOR_COUNT;
-const int sensorPins[ROBOBLOCKS_SENSOR_COUNT] = {3,4,5,6,7};
+const int sensorPins[ROBOBLOCKS_SENSOR_COUNT] = {4,5,6,7,3};
 
 class Roboblocks
 {
